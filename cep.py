@@ -1,4 +1,3 @@
-from requests import status_codes
 import requests
 
 
@@ -8,4 +7,4 @@ def procurar_cep(cep1):
     json = req.json()
 
     for k, v in json.items():
-        print(k, " - ", v)
+        print(k," - ",v) 
