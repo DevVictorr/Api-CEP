@@ -2,4 +2,4 @@ import cep
 
 buscar = cep
 
-buscar.procurar_cep("88085110")
+buscar.procurar_cep("Coloque o CEP aqui")
